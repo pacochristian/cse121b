@@ -27,6 +27,7 @@ function substractNumbers () {
     document.querySelector('#subtractNumbers').value = substractNumbers(substractNumber1, substractNumber2)
     document.querySelector('#subtractNumbers').value = substractNumbers(substractNumber3, substractNumber4)
 }
+
 document.querySelector('#substractNumbers').addEventListener('click', substractNumbers);
 /* Arrow Function - Multiply Numbers */
 
