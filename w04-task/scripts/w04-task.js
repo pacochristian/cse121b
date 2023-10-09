@@ -14,14 +14,14 @@ let myProfile = {
         'watching movies',
         'playing the piano'
     ],
-    placeLived: [],
+    placesLived: [],
 };
 
 
 /* Populate Profile Object with placesLive objects */
 
 
-myProfile.placeLived.push(
+myProfile.placesLived.push(
     {
         place: 'Pointe Noire, (Congo Brazzaville)',
         length: '30 years',
@@ -34,11 +34,22 @@ myProfile.placeLived.push(
 /* DOM Manipulation - Output */
 document.querySelector('#name').textContent = myProfile.name;
 
-const imageElement = document.querySelector('img');
+// const imageElement = document.querySelector('img');
 
 // let photo = document.querySelector('#photo');
 photo.setAttribute('src', myProfile.photo);
-name.tAttribute('alt', myProfile.name);
+photo.setAttribute('alt', myProfile.name);
+
+myProfile.favoriteFoods.forEach(food => {
+    let li = document.createElement('li');
+    li.textContent = food;
+    document.querySelector('#favorite-foods').appendChild(li);
+});
+myProfile.hobbies.forEach(hobbies => {
+    let li = document.createElement('li');
+    li.textContent = hobbies;
+    document.querySelector('#hobbies').appendChild(li);
+});
 
 /* Name */
 
