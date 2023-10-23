@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    color: yellow;
+    background-color: rgb(117, 0, 128);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 2rem;
+}
+
+#images {
+    width: 200px;
+    border-radius: 45px;
+}
