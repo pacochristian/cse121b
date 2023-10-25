@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    color: yellow;
+    background-color: rgb(117, 0, 128);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 2rem;
+}
+
+img {
+    width: 200px;
+    border-radius: 45px;
+}
+
+body {
+    /* background: url(https://source.unsplash.com/random) no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* width: 100px; */
+    /* display: grid;
+    place-items: center; */
+    background-color: blanchedalmond;
+    
+}
+
+.container {
+    text-align: center;
+    height: 400px;
+    padding-top: 100px;
+    /* display: flex; */
+    color: #fff;
+    color: blue;
+    border-radius: 15px;
+    
+}
